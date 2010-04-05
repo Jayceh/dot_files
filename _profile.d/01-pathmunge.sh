@@ -24,4 +24,6 @@ else
     pathmunge /usr/sbin after
     pathmunge /sbin after
 fi
-pathmunge /usr/local/lib/perl5/site_perl/5.10.0/auto/share/dist/Cope
+pathmunge /opt/local/bin
+pathmunge /opt/local/sbin
+pathmunge $HOME/perl5/bin
