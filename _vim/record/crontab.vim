@@ -1,0 +1,1 @@
+{"generated_by":"Vimana-2010.08","installer_type":"text","version":0.3,"files":[{"checksum":"ca843e5ef713868bc48972f73a1ef4a8","file":"/Users/jayce/.vim/syntax/crontab.vim"}],"package":"crontab.vim"}

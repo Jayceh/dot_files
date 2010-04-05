@@ -1,0 +1,1 @@
+{"generated_by":"Vimana-2010.08","installer_type":"text","version":0.3,"files":[{"checksum":"63a3ca2a8b4f2020b7e1df7d4265a06c","file":"/Users/jayce/.vim/colors/midnight2.vim"}],"package":"midnight2.vim"}

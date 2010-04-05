@@ -1,0 +1,1 @@
+{"generated_by":"Vimana-2010.08","installer_type":"text","version":0.3,"files":[{"checksum":"31767f96a4881f83d9f30263af03ff2d","file":"/Users/jayce/.vim/syntax/css.vim"}],"package":"css-color.vim"}

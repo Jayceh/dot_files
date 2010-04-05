@@ -1,0 +1,1 @@
+{"generated_by":"Vimana-2010.08","installer_type":"text","version":0.3,"files":[{"checksum":"f117cae41691e215faec50b92dafa5e3","file":"/Users/jayce/.vim/colors/motus.vim"}],"package":"motus.vim"}

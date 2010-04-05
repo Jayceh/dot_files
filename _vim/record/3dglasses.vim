@@ -1,0 +1,1 @@
+{"generated_by":"Vimana-2010.08","installer_type":"text","version":0.3,"files":[{"checksum":"94ac555aedc90ad9724533e6f1385faa","file":"/Users/jayce/.vim/colors/3dglasses.vim"}],"package":"3dglasses.vim"}

@@ -1,0 +1,1 @@
+{"generated_by":"Vimana-2010.08","install_type":"auto","version":0.2,"files":[{"checksum":"1c680319606805590c44b9a2712ef9ed","file":"/Users/jayce/.vim/colors/tabula.vim"},{"checksum":"b169e507563573e4c46aa1c94ed26632","file":"/Users/jayce/.vim/doc/tabula.txt"}],"package":"tabula.vim"}

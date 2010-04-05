@@ -1,16 +1,4 @@
-set ts=10
-:colorscheme desert
-" Add a baz/tla log entry header
-nmap ;d o<esc>:.!/bin/date '+\%G-\%m-\%d \%R'<enter>o-----<enter>
-" Add a todo
-nmap ;t <esc>:.!/bin/date '+\%G-\%m-\%d'<enter>A TODO --
-
-" Add a rpmbuild log entry header
-"nmap ;d o<esc>:.!/bin/date '+\%G-\%m-\%d \%R'<enter>o-----<enter>
-
-" Source the Xiphias vim macros if we edit html/xml/xsl files
-:au Filetype html,xml,xsl,php source ~/.vim/vim_xiphias/bcroft/maps_r3.vim
-:au Filetype html,xml,xsl,php source ~/.vim/xiphias.vim
+colorscheme oceandeep
 
 " refresh diff
 map <F8> :diffupdate<CR>
@@ -22,7 +10,7 @@ map <F9> :set<Space>nu!<CR>
 map <F10> :set<Space>list!<CR>
 
 " ROT13 entire file stay on current line
-map <F11> <Esc>mrggVGg?<CR>'r
+"map <F11> <Esc>mrggVGg?<CR>'r
 
 " Toggle long lines with <F12>
 map <F12> :set<Space>wrap!<CR>
@@ -35,3 +23,19 @@ set nowrap
 
 :au Filetype markdown source ~/.vim/markdown.vim
 
+filetype plugin indent on
+set backspace=indent,eol,start
+set showmatch
+set smartindent
+set background=dark
+set nu
+syntax on
+set shiftround
+set cursorline
+set matchpairs+=<:>
+
+iab pdbg  use Data::Dumper 'Dumper';\nwarn Dumper [];^[hi
+let g:perl_fold = 1
+
+set pastetoggle=<F11>
+nmap <leader>G   :ToggleGitMenu<CR>
