@@ -42,3 +42,6 @@ EDITOR=/usr/bin/vim
 VISUAL=/usr/bin/gvim
 
 export EDITOR VISUAL
+
+# append to the history file, don't overwrite it
+shopt -s histappend
